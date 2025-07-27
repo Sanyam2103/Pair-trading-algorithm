@@ -15,11 +15,11 @@ Getting Started
 Install requirements (preferably in a virtual environment):
 
 bash
-pip install numpy pandas statsmodels matplotlib jupyter
+```pip install numpy pandas statsmodels matplotlib jupyter```
 Launch the notebook:
 
 bash
-jupyter notebook pair-trading-algo.ipynb
+```jupyter notebook pair-trading-algo.ipynb```
 Follow the notebook cells to understand and run the analysis.
 
 About
