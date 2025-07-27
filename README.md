@@ -1,12 +1,12 @@
-# 📈 Pair Trading Algorithm – Machine Learning Project
+# 📈 Pair Trading Algorithm
 
 ## 📌 Overview
-This project implements a machine learning-based pair trading algorithm to identify stock pairs with strong historical correlation and generate long-short trading signals for profit.
+This project implements a statistical-based pair trading algorithm to identify stock pairs with strong historical correlation and generate long-short trading signals for profit.
 
 ---
 
 ## 💼 Problem Statement
-Use statistical and ML techniques to:
+Use statistical techniques to:
 - Identify tradable stock pairs
 - Model their price relationship
 - Generate profitable buy/sell signals based on spread deviation
