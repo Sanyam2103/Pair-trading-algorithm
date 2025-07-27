@@ -1,26 +1,69 @@
-This project implements a pairs trading strategy using statistical methods such as cointegration and correlation. It analyzes price data from pairs of stocks to identify mean-reverting relationships suitable for statistical arbitrage.
+# 📈 Pair Trading Algorithm – Machine Learning Project
 
-Features
-Cointegration test to find pairs that move together over time
+## 📌 Overview
+This project implements a machine learning-based pair trading algorithm to identify stock pairs with strong historical correlation and generate long-short trading signals for profit.
 
-Correlation analysis for identifying related securities
+---
 
-Visualization of stock price and spread to confirm mean reversion
+## 💼 Problem Statement
+Use statistical and ML techniques to:
+- Identify tradable stock pairs
+- Model their price relationship
+- Generate profitable buy/sell signals based on spread deviation
 
-Uses Python with pandas, statsmodels, and matplotlib
+---
 
-Fully contained in a Jupyter notebook for step-by-step analysis
+## 🧠 Key Techniques Used
+- **Data Preprocessing** using Pandas & NumPy
+- **Cointegration Testing** with the Engle-Granger method
+- **Z-score normalization** for spread-based signal generation
+- **Backtesting Strategy** to simulate trades and assess profitability
 
-Getting Started
-Install requirements (preferably in a virtual environment):
+---
 
-bash
-```pip install numpy pandas statsmodels matplotlib jupyter```
-Launch the notebook:
+## 🗂️ Project Structure
+| File | Description |
+|------|-------------|
+| `pair_trading_algo.ipynb` | Jupyter Notebook containing the complete pair trading pipeline |
+| `README.md` | Project overview and usage guide |
 
-bash
-```jupyter notebook pair-trading-algo.ipynb```
-Follow the notebook cells to understand and run the analysis.
+---
 
-About
-This notebook is for educational and backtesting purposes and does not provide financial advice. Use carefully before applying to live trading.
+## 📦 Requirements
+- Python 3.8+
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `statsmodels` (for cointegration)
+
+Install with:
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels
+```
+
+---
+
+## 🚀 How to Run
+1. Open the notebook `pair_trading_algo.ipynb`
+2. Load the historical price data (sample provided or from Yahoo Finance)
+3. Run the cells to:
+   - Test for cointegration
+   - Normalize spreads
+   - Generate trading signals
+   - Evaluate profit/loss
+
+---
+
+## 📊 Features
+- Automated pair selection using cointegration tests
+- Trading signal generation using Z-score thresholds
+- Profitability metrics & PnL visualization
+- Easy to modify thresholds and parameters
+
+---
+
+## 📬 Author
+**Sanyam**  
+For educational use only. Open to collaboration and improvements.
+
+---
+
+> 💡 Ideal for algorithmic trading enthusiasts and quantitative finance learners!
